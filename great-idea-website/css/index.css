@@ -54,7 +54,7 @@ table {
 * {
 	box-sizing: border-box;
 	border: 20px solid rgb(0, 255, 13);
-}
+	}
 
 html, body {
     height: 100%;
@@ -70,16 +70,78 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+*{
+	color: black;
+}
+
 .container {
 width:  1024px;
 margin:  0 auto;
 }
 
 
-
+.container header nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 20px;
+	padding: 10px;
+	margin-bottom: 10px;
+	
+}
+header nav a {
+	text-decoration: none;
+}
 header nav a:hover {
 	color: blueviolet;
   }
 
+.container-innovation {
+	display: flex;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	justify-content: space-around;
+
+	}
+
+.container-getstarted {
+	display: inline-block;
+	font-size: 20px;
+	border:  1px solid black;
+	padding: 5px 40px;
+
+}
 
 
+
+.copyright {
+	text-align:  center;
+	padding: 20px;
+}
+
+.container-content {
+	height:  600px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.content-features-about {
+display:  flex;
+}
+
+
+.content-service-product-vison {
+	display:  flex;
+}
+
+
+
+.middle-img {
+	width: 100%;
+}
