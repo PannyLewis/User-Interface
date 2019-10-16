@@ -70,6 +70,8 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
+
 *{
 	color: black;
 }
@@ -126,6 +128,10 @@ header nav a:hover {
 	width: 50%;
 }
 
+
+.center a:hover {
+	background-color: rgb(213, 186, 238);
+}
 
 
 .copyright {
