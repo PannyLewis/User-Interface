@@ -82,14 +82,19 @@ margin:  0 auto;
 }
 
 
-.container header nav {
+nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	margin: 20px 20px;
 	padding: 10px;
 	margin-bottom: 10px;
-	
+	background-color: aliceblue;
+
+	/* position: fixed;
+    top:0;
+    width:100%;
+    z-index:100; */
 	
 }
 header nav a {
