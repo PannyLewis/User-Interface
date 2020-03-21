@@ -82,14 +82,28 @@ margin:  0 auto;
 }
 
 
-.container header nav {
+nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	margin: 20px 20px;
 	padding: 10px;
 	margin-bottom: 10px;
-	
+	background-color: aliceblue;
+	/* this keeps the nav on top of the page when scrolled */
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+/* how to create sticky element:
+https://www.w3schools.com/howto/howto_css_sticky_element.asp
+Position fixed vs position sticky:
+https://www.kevinpowell.co/article/positition-fixed-vs-sticky/
+*/
+
+	/* position: fixed;
+    top:0;
+    width:100%;
+    z-index:100; */
 	
 }
 header nav a {
