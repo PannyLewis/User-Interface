@@ -90,6 +90,15 @@ nav {
 	padding: 10px;
 	margin-bottom: 10px;
 	background-color: aliceblue;
+	/* this keeps the nav on top of the page when scrolled */
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+/* how to create sticky element:
+https://www.w3schools.com/howto/howto_css_sticky_element.asp
+Position fixed vs position sticky:
+https://www.kevinpowell.co/article/positition-fixed-vs-sticky/
+*/
 
 	/* position: fixed;
     top:0;
